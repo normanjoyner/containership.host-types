@@ -1,0 +1,17 @@
+{
+  "name": "@containership/containership.host-types",
+  "version": "1.0.14",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@containership/containership.abstraction.host": "git+https://5fe3d6da9bd8b65f13abbbfb608aba1eab5d44d8:x-oauth-basic@github.com/containership/containership.abstraction.host",
+    "@containership/containership.api-bridge": "git+https://5fe3d6da9bd8b65f13abbbfb608aba1eab5d44d8:x-oauth-basic@github.com/containership/containership.api-bridge",
+    "@containership/containership.k8s.api-bridge": "git+https://5fe3d6da9bd8b65f13abbbfb608aba1eab5d44d8:x-oauth-basic@github.com/containership/containership.k8s.api-bridge",
+    "lodash": "^4.17.4"
+  }
+}
