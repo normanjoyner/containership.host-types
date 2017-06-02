@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "./node_modules/.bin/eslint ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Containership Developers <developers@containership.io>",
+  "license": "GPL-3.0",
   "dependencies": {
     "@containership/containership.abstraction.host": "git://github.com/containership/containership.abstraction.host.git",
     "@containership/containership.api-bridge": "git://github.com/containership/containership.api-bridge.git",
     "@containership/containership.k8s.api-bridge": "git://github.com/containership/containership.k8s.api-bridge.git",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
